@@ -2,6 +2,7 @@
   "name": "@weahead/prettier-config",
   "version": "0.0.0",
   "description": "We aheads configuration for Prettier.",
+  "main": "index.js",
   "scripts": {
     "prettier": "prettier --write '**/*.js'"
   },
