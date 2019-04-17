@@ -1,0 +1,23 @@
+{
+  "name": "@weahead/prettier-config",
+  "version": "0.1.0",
+  "description": "We aheads configuration for Prettier.",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weahead/prettier-config.git"
+  },
+  "author": "We ahead <alla@weahead.se>",
+  "license": "X11",
+  "bugs": {
+    "url": "https://github.com/weahead/prettier-config/issues"
+  },
+  "homepage": "https://github.com/weahead/prettier-config#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "1.17.0"
+  }
+}
