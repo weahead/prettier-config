@@ -2,6 +2,9 @@
   "name": "@weahead/prettier-config",
   "version": "0.0.0",
   "description": "We aheads configuration for Prettier.",
+  "scripts": {
+    "prettier": "prettier --write '**/*.js'"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/weahead/prettier-config.git"
@@ -13,5 +16,7 @@
   },
   "homepage": "https://github.com/weahead/prettier-config#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "prettier": "1.17.0"
+  }
 }
