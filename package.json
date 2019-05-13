@@ -1,6 +1,6 @@
 {
   "name": "@weahead/prettier-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "We aheads configuration for Prettier.",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,9 @@
   "homepage": "https://github.com/weahead/prettier-config#readme",
   "dependencies": {},
   "devDependencies": {
+    "prettier": "1.17.0"
+  },
+  "peerDependencies": {
     "prettier": "1.17.0"
   }
 }
