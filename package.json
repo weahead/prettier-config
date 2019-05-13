@@ -19,5 +19,8 @@
   "dependencies": {},
   "devDependencies": {
     "prettier": "1.17.0"
+  },
+  "peerDependencies": {
+    "prettier": "1.17.0"
   }
 }
