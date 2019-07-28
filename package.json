@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "commit",
     "lint": "eslint --fix '**/*.js' '**/*.json'",
-    "prettier": "prettier --write '**/*.js'"
+    "prettier": "prettier --write '*.js' '*.json' '*.md'"
   },
   "repository": {
     "type": "git",
