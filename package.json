@@ -6,6 +6,7 @@
   "scripts": {
     "commit": "commit",
     "lint": "eslint --fix '**/*.js' '**/*.json'",
+    "lint:md": "markdownlint *.md",
     "prettier": "prettier --write '*.js' '*.json' '*.md'"
   },
   "repository": {
@@ -25,8 +26,10 @@
     "@commitlint/prompt-cli": "8.1.0",
     "@weahead/commitlint-config": "0.1.3",
     "@weahead/eslint-config-tool": "0.1.1",
+    "@weahead/markdownlint-config": "0.1.0",
     "eslint": "6.1.0",
     "eslint-plugin-json": "1.4.0",
+    "markdownlint-cli": "0.17.0",
     "prettier": "1.17.0"
   },
   "peerDependencies": {
