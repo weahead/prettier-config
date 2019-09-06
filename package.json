@@ -7,8 +7,13 @@
     "commit": "commit",
     "lint": "eslint --fix '**/*.js' '**/*.json'",
     "lint:md": "markdownlint *.md",
-    "prettier": "prettier --write '*.js' '*.json' '*.md'"
+    "prettier": "prettier --write '*.js' '*.json' '*.md'",
+    "postinstall": "./scripts/postinstall.sh"
   },
+  "files": [
+    "index.js",
+    "scripts/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/weahead/prettier-config.git"

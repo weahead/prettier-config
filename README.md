@@ -4,13 +4,11 @@
 
 ## Install
 
-```
-npx install-peerdeps -d -x '-E' @weahead/prettier-config
-```
+`npx install-peerdeps -d -x '-E' @weahead/prettier-config`
 
-Create a `.prettierrc.js` file in the root of your project with:
+A `.prettierrc.js` file will automatically be created in the root of your project with:
 
-```
+```js
 module.exports = require('@weahead/prettier-config');
 ```
 
