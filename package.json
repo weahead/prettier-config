@@ -1,6 +1,6 @@
 {
   "name": "@weahead/prettier-config",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "We aheads configuration for Prettier.",
   "main": "index.js",
   "scripts": {
